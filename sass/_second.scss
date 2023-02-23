@@ -1,0 +1,54 @@
+.sear {
+  padding: 10px;
+  width: 100%;
+  display: inline-block;
+  border: 1px solid #CED4DA;
+  outline: 3px solid transparent;
+  border-radius: 4px;
+  margin: 80px 0 60px;
+}
+
+.sear:focus{
+  border: 1px solid #007ee6;
+  outline: 4px solid rgba(66, 164, 245, 0.274);
+  
+}
+
+
+.list-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.list-item1 {
+  padding: 0 20px 0 30px;
+  position: relative;
+  padding: 50px 0;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.list-item1:hover .price-2 {
+  height: 50px;
+}
+.scrol {
+    padding: 20px 0;
+    color: #fff;
+    background: #000;
+   margin-top: 20px;
+    list-style: none;
+    margin-bottom: 20px;
+}
+.scrol_in {
+  color: #fff ;
+  background-color: #000;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}

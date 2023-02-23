@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  // background-color: orange;
+}
+
+body {
+  background-color: #F8F9FA;
+}
+
+.container {
+  max-width: 1240px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+
+a {
+  text-decoration: none;
+}
